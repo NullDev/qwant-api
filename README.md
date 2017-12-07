@@ -31,6 +31,27 @@ Qwant Feature support
 
 ## :bulb: Usage
 
+```javascript
+qwant.search(<category>, { <options> }, <callback>{ /*...*/ });
+```
+
+**Categories:**
+
+- web
+- images
+- news
+- social
+
+**Options:**
+
+| Option | Required | Type | Explanation |
+|--------|----------|------|-------------|
+| query | **Yes** | string | ... |
+| count | no | integer | ... |
+| offset | no | integer | ... |
+
+**Example:**
+
 ```Javascript
 var qwant = require("qwant-api");
 
