@@ -1,0 +1,4 @@
+node_modules
+.travis.yml
+.jenkins.yml
+test.*
