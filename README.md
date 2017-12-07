@@ -5,6 +5,10 @@
 Unofficial API wrapper for qwant
 </p>
 
+## :information_source: About
+
+[Qwant](http://qwant.com) provides an unofficial, free and limit-less search API. This library aims to provide a fully featured wrapper for it.
+
 ## :postbox: NPM
 
 [![](https://nodei.co/npm/qwant-api.svg?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/qwant-api)
