@@ -44,18 +44,18 @@ qwant.search(<category>, { <options> }, <callback>{ /*...*/ });
 
 **Options:**
 
-| Option | Required | Type | Explanation |
-|--------|----------|------|-------------|
-| query | **Yes** | string | ... |
-| count | no | integer | ... |
-| offset | no | integer | ... |
+| Option | Required | Type | Default | Explanation |
+|--------|----------|------|---------|-------------|
+| query | **Yes** | string | none | The term(s) to search |
+| count | no | integer | 1 | The ammount of results |
+| offset | no | integer | 0 | The index of the first result |
 
 **Example:**
 
 ```Javascript
 var qwant = require("qwant-api");
 
-qwant.search("web", { query: "test" }, function(err, data){
+qwant.search("web", { query: "test", count: 10, offset: 1 }, function(err, data){
     if (err) return console.log(err);
     console.log(data);
 });
