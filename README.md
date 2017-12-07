@@ -46,9 +46,9 @@ qwant.search(<category>, { <options> }, <callback>{ /*...*/ });
 
 | Option | Required | Type | Default | Explanation |
 |--------|----------|------|---------|-------------|
-| query | **Yes** | string | none | The term(s) to search |
-| count | no | integer | 1 | The ammount of results |
-| offset | no | integer | 0 | The index of the first result |
+| `query` | **Yes** | string | none | The term(s) to search |
+| `count` | no | integer | 1 | The amount of results |
+| `offset` | no | integer | 0 | The index of the first result |
 
 **Example:**
 
