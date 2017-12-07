@@ -31,9 +31,14 @@ Qwant Feature support
 
 ## :bulb: Usage
 
+### Search:
+
+
 ```javascript
 qwant.search(<category>, { <options> }, <callback>{ /*...*/ });
 ```
+
+Returns search results
 
 **Categories:**
 
@@ -59,6 +64,37 @@ qwant.search("web", { query: "test", count: 10, offset: 1 }, function(err, data)
     if (err) return console.log(err);
     console.log(data);
 });
+```
+
+### Languages:
+
+```javascript
+qwant.getLanguages(<options>);
+```
+
+Returns a list of supported languages
+
+**Options:**
+
+| Option | Required | Type | Default | Explanation |
+|--------|----------|------|---------|-------------|
+| list codes | No | boolean | false  | List languages and language codes |
+
+**Example:**
+
+```Javascript
+var qwant = require("qwant-api");
+
+var languages = qwant.getLanguages();
+
+console.log(languages);
+// => ['english', 'german', 'french', 'welsh', 'scottish', ... ]
+
+var languagesAndCodes = qwant.getLanguages(true);
+
+console.log(languagesAndCodes);
+// => { english: 'en_en', german: 'de_de', french: 'fr_fr', ... }
+
 ```
 
 <hr>
