@@ -1,6 +1,6 @@
 {
     "name": "qwant-api",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Unofficial API Wrapper for QWANT",
     "main": "index.js",
     "dependencies": {
