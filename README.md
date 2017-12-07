@@ -31,6 +31,9 @@ Qwant Feature support
 | :---: | :---: | :---: | :---: |
 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
+- Error handling 
+- Multiple Languages
+
 <hr>
 
 ## :bulb: Usage
