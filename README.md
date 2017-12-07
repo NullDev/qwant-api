@@ -56,15 +56,16 @@ Returns search results
 | Option | Required | Type | Default | Explanation |
 |--------|----------|------|---------|-------------|
 | `query` | **Yes** | string | none | The term(s) to search |
-| `count` | no | integer | 1 | The amount of results |
-| `offset` | no | integer | 0 | The index of the first result |
+| `count` | No | integer | 1 | The amount of results |
+| `offset` | No | integer | 0 | The index of the first result |
+| `language ` | No | string | english | The language for the search |
 
 **Example:**
 
 ```Javascript
 var qwant = require("qwant-api");
 
-qwant.search("web", { query: "test", count: 10, offset: 1 }, function(err, data){
+qwant.search("web", { query: "test", count: 10, offset: 1, language: "german" }, function(err, data){
     if (err) return console.log(err);
     console.log(data);
 });
