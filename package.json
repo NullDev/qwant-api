@@ -1,0 +1,33 @@
+{
+    "name": "qwant-api",
+    "version": "0.1.0",
+    "description": "Unofficial API Wrapper for QWANT",
+    "main": "index.js",
+    "dependencies": {
+        "request": "^2.83.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NLDev/qwant-api.git"
+    },
+    "maintainers": [
+        {
+            "name": "NullDev",
+            "email": "admin@nulldev.org",
+            "web": "nulldev.org"
+        }
+    ],
+    "keywords": [
+        "qwant",
+        "wrapper",
+        "API",
+        "REST",
+        "unofficial"
+    ],
+    "author": "NullDev",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/NLDev/qwant-api/issues"
+    },
+    "homepage": "https://github.com/NLDev/qwant-api#readme"
+}
