@@ -125,6 +125,6 @@ Everything.
 
 ## :copyright: Copyright & Disclaimer
 
-`Copyright (c) 2017 NullDev`
+`Copyright (c) 2018 NullDev`
 
 This is **NOT** an official API Wraper for [Qwant](http://qwant.com).
