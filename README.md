@@ -29,9 +29,9 @@ npm i qwant-api
 
 Qwant Feature support
   
-| web | images | news | social |
-| :---: | :---: | :---: | :---: |
-| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| web | images | news | social | videos | music |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
 - Error handling 
 - Multiple Languages
