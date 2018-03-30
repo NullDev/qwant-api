@@ -55,6 +55,8 @@ Returns search results
 - images
 - news
 - social
+- videos
+- music
 
 **Options:**
 
