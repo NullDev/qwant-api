@@ -16,7 +16,12 @@ qwant.search("news", { query: "bitcoin" }, function(err, data){
     console.log("News Search: \n\n" + JSON.stringify(data, null, 4) + "\n\n----\n");
 });
 
-qwant.search("social", { query: "null_ping twitter" }, function(err, data){
+qwant.search("social", { query: "bill gates" }, function(err, data){
     if (err) return console.log(err);
     console.log("Social Search: \n\n" + JSON.stringify(data, null, 4) + "\n\n----\n");
+});
+
+qwant.search("videos", { query: "memes" }, function(err, data){
+    if (err) return console.log(err);
+    console.log("Videos Search: \n\n" + JSON.stringify(data, null, 4) + "\n\n----\n");
 });
