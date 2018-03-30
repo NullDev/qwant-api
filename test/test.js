@@ -25,3 +25,8 @@ qwant.search("videos", { query: "memes" }, function(err, data){
     if (err) return console.log(err);
     console.log("Videos Search: \n\n" + JSON.stringify(data, null, 4) + "\n\n----\n");
 });
+
+qwant.search("music", { query: "varien" }, function(err, data){
+    if (err) return console.log(err);
+    console.log("Music Search: \n\n" + JSON.stringify(data, null, 4) + "\n\n----\n");
+});
