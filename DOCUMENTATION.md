@@ -19,6 +19,8 @@ Endpoints:
 | images | [https://api.qwant.com/api/search/images](https://api.qwant.com/api/search/images) | [Jump to reference](#images) |
 | news | [https://api.qwant.com/api/search/news](https://api.qwant.com/api/search/news) | [Jump to reference](#news) |
 | social | [https://api.qwant.com/api/search/social](https://api.qwant.com/api/search/social) | [Jump to reference](#social) |
+| videos | [https://api.qwant.com/api/search/videos](https://api.qwant.com/api/search/videos) | [Jump to reference](#videos) |
+| music | [https://api.qwant.com/api/search/music](https://api.qwant.com/api/search/music) | [Jump to reference](#music) |
 
 <hr>
 
@@ -37,3 +39,19 @@ Endpoints:
 ## Social
 
 ```//TODO```
+
+## Videos
+
+```//TODO```
+
+## Music
+
+```//TODO```
+
+<hr>
+
+## Error Codes:
+
+| Code | Meaning |
+| ---- | ------- |
+| 24 | Rate limit reached | 
