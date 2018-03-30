@@ -54,4 +54,6 @@ Endpoints:
 
 | Code | Meaning |
 | ---- | ------- |
-| 24 | Rate limit reached | 
+| 1 | No search query specified |
+| 8 | Unknown Category |
+| 24 | Rate limit reached - IP Blocked until captcha is solved | 
