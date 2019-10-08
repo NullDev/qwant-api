@@ -1,33 +1,43 @@
 {
-    "name": "qwant-api",
-    "version": "0.5.0",
-    "description": "Unofficial API Wrapper for QWANT",
-    "main": "index.js",
-    "dependencies": {
-        "request": "^2.83.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/NLDev/qwant-api.git"
-    },
-    "maintainers": [
-        {
-            "name": "NullDev",
-            "email": "admin@nulldev.org",
-            "web": "nulldev.org"
-        }
-    ],
-    "keywords": [
-        "qwant",
-        "wrapper",
-        "API",
-        "REST",
-        "unofficial"
-    ],
-    "author": "NullDev",
-    "license": "Apache-2.0",
-    "bugs": {
-        "url": "https://github.com/NLDev/qwant-api/issues"
-    },
-    "homepage": "https://github.com/NLDev/qwant-api#readme"
+  "name": "qwant-api",
+  "version": "0.5.0",
+  "description": "Unofficial API Wrapper for QWANT",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.83.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NLDev/qwant-api.git"
+  },
+  "maintainers": [
+    {
+      "name": "NullDev",
+      "email": "admin@nulldev.org",
+      "web": "nulldev.org"
+    }
+  ],
+  "keywords": [
+    "qwant",
+    "wrapper",
+    "API",
+    "REST",
+    "unofficial"
+  ],
+  "author": "NullDev",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/NLDev/qwant-api/issues"
+  },
+  "homepage": "https://github.com/NLDev/qwant-api#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
 }
