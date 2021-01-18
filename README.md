@@ -9,7 +9,7 @@ Unofficial API wrapper for qwant
 
 [Qwant](http://qwant.com) provides an unofficial, free and limit-less search API. This library aims to provide a fully featured wrapper for it.
 
-The unofficial documentation of Qwant's API can be found in the [DOCUMENTATION.md](https://github.com/NLDev/qwant-api/blob/master/DOCUMENTATION.md) file 
+The unofficial documentation of Qwant's API can be found in the [DOCUMENTATION.md](https://github.com/NullDev/qwant-api/blob/master/DOCUMENTATION.md) file 
 
 ## :postbox: NPM
 
@@ -125,6 +125,6 @@ Everything.
 
 ## :copyright: Copyright & Disclaimer
 
-`Copyright (c) 2018 NullDev`
+`Copyright (c) NullDev`
 
 This is **NOT** an official API Wraper for [Qwant](http://qwant.com).
