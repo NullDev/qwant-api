@@ -14,6 +14,7 @@
         "requireConfigFile": false,         // make babel not look for config
         "babelOptions": {
             "plugins": [                    // additional plugins for new ES-proposals such as "@babel/plugin-proposal-class-properties"
+                "@babel/plugin-proposal-class-properties"
             ]
         }
     },
