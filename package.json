@@ -29,5 +29,11 @@
     "bugs": {
         "url": "https://github.com/NullDev/qwant-api/issues"
     },
-    "homepage": "https://github.com/NullDev/qwant-api#readme"
+    "homepage": "https://github.com/NullDev/qwant-api#readme",
+    "devDependencies": {
+        "@babel/core": "^7.13.16",
+        "@babel/eslint-parser": "^7.13.14",
+        "@types/node": "^15.0.1",
+        "eslint": "^7.25.0"
+    }
 }
