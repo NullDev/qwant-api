@@ -7,7 +7,7 @@
         "es2021": true,                     // ESNext support
         "es6": true                         // enable all ECMAScript 6 features except for modules
     },
-    "parser": "@babel/eslint-parser",       // npm install @babel/eslint-parser --save-dev
+    "parser": "@babel/eslint-parser",       // npm install @babel/eslint-parser @babel/core eslint --save-dev
     "parserOptions": {
         "ecmaVersion": 12,                  // set highest possible version
         "sourceType": "script",             // don't treat scripts as modules (keeps enforcing "use strict")
@@ -73,6 +73,7 @@
         "no-unreachable": 2,                // http://eslint.org/docs/rules/no-unreachable
         "use-isnan": 2,                     // http://eslint.org/docs/rules/use-isnan
         "block-scoped-var": 2,              // http://eslint.org/docs/rules/block-scoped-var
+        "valid-typeof": 2,                  // http://eslint.org/docs/rules/valid-typeof
         /**
          * Best practices
          */
@@ -178,7 +179,15 @@
             "after": true
         }],
         "space-after-keywords": 0,          // http://eslint.org/docs/rules/space-after-keywords
-        "space-before-blocks": 0,           // http://eslint.org/docs/rules/space-before-blocks
+        "space-before-blocks": [2, {        // http://eslint.org/docs/rules/space-before-blocks
+            "functions": "never", 
+            "keywords": "never", 
+            "classes": "always"
+        }],
+        "keyword-spacing": [0, {            // http://eslint.org/docs/rules/keyword-spacing
+            "before": false,
+            "after": true
+        }],
         "space-before-function-paren": [2,
             "never"                         // http://eslint.org/docs/rules/space-before-function-paren
         ],
