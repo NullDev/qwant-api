@@ -1,7 +1,7 @@
 # Qwant API
 
 <p align="center">
-<img height="150" width="auto" src="https://www.qwant.com/favicon.png" /><br>
+<img height="150" width="auto" src="https://i.imgur.com/5krITxE.png" /><br>
 Unofficial API wrapper for qwant
 </p>
 
